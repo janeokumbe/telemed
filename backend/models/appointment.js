@@ -1,3 +1,8 @@
+const db = require('../config/database'); // Ensure this points to your MySQL connection setup
+
+
+
+
 class Appointment {
     constructor(patientEmail, doctorEmail, date, time) {
         this.patientEmail = patientEmail;
